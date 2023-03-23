@@ -38,6 +38,11 @@ namespace Power2Method
             }
         }
 
+        /// <summary>
+        /// prints powers of 2 since n1 until n2
+        /// </summary>
+        /// <param name="n1"> first power to be printed </param>
+        /// <param name="n2"> last power to be printed </param>
         private static void PowersOf2UntilN (int n1, int n2)
         {
             for (int i = 1 << n1; i <= (1 << n2); i = i << 1)
