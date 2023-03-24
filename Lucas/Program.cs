@@ -6,8 +6,8 @@ namespace Lucas
     {
         static void Main(string[] args)
         {
-            Console.Write("Qual o número da sequência que deseja saber: ");
-            int valor = Convert.ToInt32(Console.ReadLine());
+            
+            int valor = Convert.ToInt32(args[0]);
 
             Console.WriteLine(Lucas(valor));
         }
